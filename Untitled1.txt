@@ -1,0 +1,24 @@
+
+      SQL - Oracle , MS SQL , Mysql 
+
+
+  \DDL-	     CReate table , Alter table, Delete table, Drop
+
+create table register ( registerNumber varchar(30),name varchar(10), username varchar(20),password varchar(20));
+
+   DML-	  Insert, Delete ,update, select
+
+   insert into register values('CS001','Test','Test','password');
+   select  * from register;
+   select  username,password from register;
+
+   select * from register where username='Test';
+   select * from register where username='Test' and password='Test';
+
+   update register set name='Newuser', age=20; where password='password' and username'Test';
+
+   delete from register where name='Test';
+
+   
+
+
